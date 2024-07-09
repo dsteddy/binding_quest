@@ -5,5 +5,5 @@ export interface User {
     quote?: string;
     photo : string;
     ageHidden : boolean;
-    hideAge : function;
+    hideAge : Function;
 }
